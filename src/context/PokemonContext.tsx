@@ -15,7 +15,7 @@ interface ContextProps {
   changeTypeSelected: (type: PokeType) => void;
 }
 
-const limitPagesUrl = 15;
+const limitPagesUrl = 100;
 
 const allPokemonsUrl = `/pokemon?limit=${limitPagesUrl}&offset=0`;
 
