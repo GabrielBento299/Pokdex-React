@@ -24,5 +24,12 @@ module.exports = {
   ],
   rules: {
     'react/react-in-jsx-scope': 'off',
+    '@typescript-eslint/no-unused-vars': 'off',
+    '@ts-ignore': 'off',
+    '@typescript-eslint/ban-ts-comment': 'off',
+    'react/jsx-one-expression-per-line': 'off',
+    'react/require-default-props': 'off',
+    '@typescript-eslint/no-non-null-assertion': 'off',
+    '@typescript-eslint/no-non-null-asserted-optional-chain': 'off',
   },
 };
