@@ -1,8 +1,12 @@
 
 <h1 align="center">Pokedex</h1
 
-<p>Projeto para listagem de todos os pokemons, com filtragem dos pokemons pelo tipo, e detalhes de cada pokemon individualmente. ultilizando a api: https://pokeapi.co/ </p>
+<p>Projeto para listagem de todos os pokemons, com filtragem dos pokemons pelo tipo, e detalhes de cada pokemon individualmente. ultilizando a api: https://pokeapi.co/ </p
+
 <p>Usei nesse projeto react, typescript, sass</p>
+
+<span>Projeto via youtube: https://www.youtube.com/watch?v=XNEhQiIAzOo<span> <br />
+<span>Figma: https://www.figma.com/@ricardohs</span>
 
 
 ![Captura de Tela (8)](https://user-images.githubusercontent.com/86307663/216403718-a9d68e19-ef3f-489b-951d-aab4508ba1d6.png)
