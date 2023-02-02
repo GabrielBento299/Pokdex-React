@@ -10,10 +10,9 @@ import { Title } from './components/Title';
 import styles from './styles.module.scss';
 
 interface Props {
-  pokemon: IPokemon | null;
+  pokemon: IPokemon;
 }
 
-// eslint-disable-next-line import/prefer-default-export
 export function PokemonDetail({ pokemon }: Props) {
   /* @ts-ignore */
   const backgroundSelected = background[pokemon?.types[0]?.type?.name];
