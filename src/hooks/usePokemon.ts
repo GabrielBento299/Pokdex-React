@@ -9,10 +9,10 @@ export default function UsePokemon(url: string, id?:string) {
 
   async function fetchPokemon() {
     if (url) {
-      const { data } = await axios.get(url);
+      const { data }: any = await axios.get(url);
       setPokemon(data);
     } else if (id) {
-      const { data } = await api.get(`/pokemon/${id}`);
+      const { data }: any = await axios.get(`https://pokeapi.co/api/v2/pokemon/${id}`);
       setPokemon(data);
     }
   }

@@ -1,5 +1,8 @@
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
 import { useContext } from 'react';
 import { PokeballIconSmall } from '../../assets/img/pokeball';
+import { Filters } from '../../components/Filters';
 import Pagination from '../../components/pagination';
 import PokemonList from '../../components/PokemonList';
 import { PokemonContext } from '../../context/PokemonContext';
@@ -19,11 +22,15 @@ export default function Home() {
   return (
     <div className={styles.home}>
       <header>
-        <div>
+        <div
+          onClick={backToHome}
+        >
           <PokeballIconSmall />
           <span>Pokédex</span>
         </div>
       </header>
+
+      <Filters />
 
       <PokemonList
         page={page}
