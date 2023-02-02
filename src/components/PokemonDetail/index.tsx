@@ -10,7 +10,7 @@ import { Title } from './components/Title';
 import styles from './styles.module.scss';
 
 interface Props {
-  pokemon: IPokemon;
+  pokemon: IPokemon | null | undefined;
 }
 
 export function PokemonDetail({ pokemon }: Props) {
