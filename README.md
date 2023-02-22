@@ -8,6 +8,9 @@
 <span>Projeto via youtube: https://www.youtube.com/watch?v=XNEhQiIAzOo<span> <br />
 <span>Figma: https://www.figma.com/@ricardohs</span>
 
+<p>Link do projeto está no meu portfólio "https://my-portifolio-flax.vercel.app/#portifolio"</p>
+
+
 
 ![Captura de Tela (8)](https://user-images.githubusercontent.com/86307663/216403718-a9d68e19-ef3f-489b-951d-aab4508ba1d6.png)
 
